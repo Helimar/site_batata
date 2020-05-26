@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ColchoMix</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/icone_sofa.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/icone_sofa.png" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/kwicks-slider.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.kwicks-1.5.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+if ($(window).width() > 1024) {
+    document.write("<" + "script src='js/jquery.preloader.js'></" + "script>");
+}
+</script>
+<script>
+jQuery(window).load(function () {
+    $x = $(window).width();
+    if ($x > 1024) {
+        jQuery("#content .row").preloader();
+    }
+    jQuery('.magnifier').touchTouch();
+    jQuery('.spinner').animate({
+        'opacity': 0
+    }, 1000, 'easeOutCubic', function () {
+        jQuery(this).css('display', 'none')
+    });
+});
+</script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+<![endif]-->
+</head>
+<body>
+<div class="spinner"></div>
+<header>
+  <div class="container clearfix">
+    <div class="row">
+      <div class="span12">
+        <div class="navbar navbar_">
+          <div class="container">
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.jpg"> </a></h1>
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+              <ul class="nav sf-menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="sub-menu"><a href="services.html">Vendas</a></li>
+                <li><a href="folio.html">Móveis</a></li>
+                <li><a href="contact.html">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="fundo_novo">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="flexslider">
+          <ul class="slides">
+            <li> <img src="img/sofa.jpeg" alt=""> </li>
+            <li> <img src="img/slide-mesa.jpeg" alt=""> </li>
+            <li> <img src="img/slide-sofa22.jpeg" alt=""> </li>
+            <li> <img src="img/slide-sofa2.jpg" alt=""> </li>
+            <li> <img src="img/slide-cama.jpeg" alt=""> </li>
+          </ul>
+        </div>
+        <span id="responsiveFlag"></span>
+        <div class="block-slogan">
+          <h2 class="frase_slide">Dedicação para decorar o seu lar!</h2>
+          <div>
+            <!--<p class="link-1"><a href="#" class="link-1">Confira (ir pra foto)</a> Dedicação para decorar o seu lar. </p>
+            <p class="link-1"><a href="#" class="link-1">Confira (ir pra foto)</a> Dedicação para decorar o seu lar. </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="content-extra">
+    <div class="row-1">
+      <div class="container">
+
+        <!-- Div Class nossa Historia -->
+        <div class="row">
+          <div align="center" >
+          <ul class="thumbnails thumbnails-1">
+
+              <h3 class="titulos_index"><section> <strong>Nossa História  </strong></h3>
+                <p>
+                  <h2 class="texto_index">A Colchomix foi fundada no dia 01/08/2013, com mais de quatro anos no setor<br>
+                                         de moveis, a nossa empresa esta direcionada a atender os gostos e a  de compra<br>
+                                         do consumidor, por produtos de melhor qualidade e preços acessíveis.
+                 </h2>
+
+              <h3 class="titulos_index"><section> <strong>Nossa Visão  </strong></h3>
+                <p>
+                  <h2 class="texto_index">Ser a referência e a primeira opção dos consumidores que procurem preço,<br>
+                                qualidade e bom atendimento na compra de móveis e
+                                decoração de ambientes.
+                  </h2>
+
+              <h3 class="titulos_index"><section> <strong>Nossa Motivação pela Decoração do seu Lar  </strong></h3>
+                <p>
+                  <h2 class="texto_index">Na Colchomix, acreditamos que cada casa é a realização de um grande sonho <br>
+                                conquistado e nosso objetivo é ajudar o cliente a completar o seu, decorando</br>
+                                com móveis de otima qualidade. Para isso, reunimos as melhores soluções de e</br>
+                                opções de venda de móveis, online ou por vendas presencial diretamente em nossa</br>
+                                loja de facil acesso, onde oferecemos inspirações para decorar cada momento da</br>
+                                sua vida. Na internet especificamente na "OLX" somos reconhecidos como a melhor</br>
+                                loja para se comprar móveis. Somos APAIXONADOS pelo que fazemos! A Colchomix tem</br>
+                                o prazer de ajudar você a explorar a maior variedade de móveis para decorarmos o</br>
+                                seu lar. Respeitando os valores consistentes e nossos clientes reconhecem isso pelo</br>
+                                nosso respeito e atendimento.
+                </p>
+                  </h2>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+ </div>
+</div>
+<footer>
+  <div class="container clearfix">
+    <ul class="list-social pull-right">
+      <li><a class="icon-1" href="#"></a></li>
+      <li><a class="icon-2" href="#"></a></li>
+      <li><a class="icon-3" href="#"></a></li>
+      <li><a class="icon-4" href="#"></a></li>
+    </ul>
+    <div class="privacy pull-left">  © Copyright 2017 - Todos direitos resevados à ColchoMix</div>
+  </div>
+</footer>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
